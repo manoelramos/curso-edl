@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>EDL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+
+    <link href="../assets/css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+    <style>
+        .atencao {
+            margin-bottom: 0px;
+            font-weight: bold;
+            color: #9A7265;
+            position: absolute;
+            margin-left: 66px;
+            margin-top: 34px;
+        }
+
+        hr {
+            width: 100%;
+            border: 1px solid #9A7265;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Toolbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
+
+            <img src="../assets/images/logos/logoMenu.png" class="img-fluid logo" alt="Logo Fiocruz" />
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li><a href="../index.html">Home</a></li>
+                    <!-- <li><a href="material-complementar.html">Material Complementar</a></li> -->
+                    <li><a href="../referencias.html">Referências</a></li>
+                    <li><a href="../creditos.html">Créditos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row" id="row-main">
+        <!-- Sidebar -->
+        <div class="col-md-2" id="sidebar">
+            <!-- Botão p/ Recolher Sidebar-->
+            <span class="toggle-sidebar" id="sidebarButton"><i class="fas fa-chevron-left"></i></span>
+
+            <!-- Botão Secundário p/ Recolher Sidebar -->
+            <span class="toggle-sidebar" id="sidebarButton2"><img src="../assets/images/icones/icone.png"
+                    alt="Botão do Menu Lateral"></span>
+
+            <nav id="menuLateral">
+                <ul class="listaMenu" id="menuList">
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <a href="../introducao.html" class="tituloLista introducao">Introdução</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <a href="../modulo1/modulo1-introducao.html" class="tituloLista">Módulo 1: Combate
+                                    ao
+                                    mosquito <i>Aedes</i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="../modulo1/modulo1-aula1.html">Aspectos básicos da biologia, ecologia e
+                                    controle de <i>Aedes</i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="../modulo1/modulo1-aula2.html">Inseticidas reguladores de crescimento</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="../modulo1/modulo1-aula3.html">O que é uma Estação Disseminadora de
+                                    Larvicida (EDL) e como funciona?</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="../modulo1/modulo1-atividade.html">Atividade</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <a href="modulo2-introducao.html" class="tituloLista">Módulo 2:
+                                    Implantação,
+                                    manutenção e
+                                    distribuição da EDL</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2-aula1.html">Implantação da EDL</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper active"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="#">Manutenção e registro da EDL</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2-aula3.html">Métodos de distribuição em campo da EDL</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2-aula4.html">Supervisão da EDL</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2-aula5.html">Logística estratégica e operacional</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2-atividade.html">Atividade</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <a href="../encerramento.html" class="tituloLista">Encerramento</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-md-10" id="content">
+            <!-- Introdução -->
+            <div class="conteudo">
+                <p class="indice">Módulo2/Aula2</p>
+                <h1>Manutenção e registro da EDL</h1>
+
+                <p>A equipe ou responsável pela estratégia do município entregará ao profissional de campo, a
+                    relação de
+                    EDL’s com as informações coletadas, revisadas e atualizadas. Uma vez ao mês, o profissional de
+                    campo
+                    deve retornar aos locais de instalação das EDL, e, caso permitido o ingresso ao domicílio pelo
+                    residente, deverá proceder com a manutenção da EDL.</p>
+
+                <ul>
+                    <li class="icon circle">Procurar na planilha de manutenção o local de instalação da EDL no
+                        imóvel
+                        (ver item c da
+                        planilha abaixo).</li><br>
+                    <li class="icon circle">Verificar o nível de água (Seca, &lt;50%, &gt;50%) e a correta instalação da
+                            EDL (ver item f e g da planilha abaixo). Preencher a planilha de manutenção, com as
+                            novidades ou possíveis
+                            intercorrências:
+                    </li>
+                    <ul>
+                        <li><b>- Presença de larvas:</b> presença de larvas de <i>Ae. aegypti</i> ou <i>Ae.
+                                albopictus</i>
+                            na
+                            água contida
+                            no interior da EDL.</li>
+                        <li><b>- Presença de pupas:</b> presença de pupas de <i>Ae. aegypti</i> ou <i>Ae. albopictus</i>
+                            na
+                            água contida no
+                            interior da EDL.</li>
+                        <li><b>- Tecido desaparecido:</b> Ausência do suporte e/ou a tela impregnada no momento da manutenção da EDL</li>
+                        <li><b>- Imóvel fechado:</b> no momento da visita para a manutenção da EDL, o imóvel se encontra
+                            fechado.</li>
+                        <li><b>- Estação Disseminadora não instalada:</b> No momento da visita para a manutenção da EDL,
+                            o
+                            residente informou que a EDL nunca foi instalada, o qual pode acontecer por erros no
+                            preenchimento ou digitação do endereço.</li>
+                        <li><b>- Estação Disseminadora desaparecida:</b> No momento da visita para a manutenção da EDL,
+                            o
+                            agente não localiza a EDL no local de instalação, o qual pode acontecer porque a EDL é
+                            reaproveitada para outros fins ou foi descartada por desconhecimento do objetivo da EDL
+                            no imóvel.</li>
+                        <li><b>- Estação Disseminadora quebrada:</b> EDL danificada que impeça seu bom funcionamento.
+                        </li>
+                        <li><b>- Estação Disseminadora retirada:</b> EDL retirada do imóvel por desistência de
+                            participação
+                            ou mudança do residente, ou dificuldade de acesso ao imóvel, em pelo menos duas visitas
+                            de manutenção.</li>
+                    </ul><br>
+
+                    <li class="icon circle">Remova o suporte com a tela impregnada, retire a tela utilizada e guarde-a em uma sacola para descarte posterior. Em seguida, utilize um novo sachê e repita os passos 2 a 5 da aula 1 do módulo 2 “Implantação da EDL”: agite o sachê, retire a tela com cuidado, fixe-a no suporte, coloque o suporte no balde mantendo a tela fora da água, despeje o pó restante na água e finalize encaixando corretamente a tampa.</li>
+                </ul>
+            </div>
+
+            <div class="row curiosidade">
+                <div class="col-md-2">
+                    <img class="centro img-fluid" src="../assets/images/icones/curiosidade.png" alt="Curiosidade">
+                </div>
+                <div class="col-md-10">
+                    <h3>CURIOSIDADE</h3>
+                    <hr>
+                    <p><b>Você sabe quais são as intercorrências mais comuns?</b></p>
+                    <div class="row centro">
+                        <div class="col-sm-4 imagem">
+                            <img src="../assets/images/modulo2/aula2/img1.png"
+                                alt="Três fotos sobre as intercorrências mais comuns com as EDL’s. A primeira foto é de uma EDL virada no chão."
+                                class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 imagem">
+                            <img src="../assets/images/modulo2/aula2/img2.png"
+                                alt="A segunda foto é a EDL danificada com uma rachadura no meio." class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 imagem">
+                            <img src="../assets/images/modulo2/aula2/img3.png"
+                                alt="E a terceira é a EDL reaproveitada para outro uso pelo residente, o balde está com água e uma mangueira amarela dentro."
+                                class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row blocoTexto">
+                <p><b>Lembre-se sempre de orientar e sensibilizar o residente sobre a probabilidade ocasional da EDL
+                        apresentar larvas de <i>Aedes aegypti</i> ou <i>Aedes albopictus</i> na água contida no
+                        interior
+                        do pote.
+                        Lembre-se também que o piriproxifem não atua de imediato nas larvas, pode aumentar o tempo
+                        de
+                        desenvolvimento da larva até sua morte.</b></p>
+            </div>
+
+
+            <div class="conteudo">
+
+                <h3>Registro de manutenção de estações disseminadoras de larvicida. Passe o mouse sobre os números
+                    para
+                    conhecer as informações de manutenção das EDL’s</h3>
+
+                <img src="../assets/images/modulo2/aula2/img4.png" alt="Planilha de Controle"
+                    class="img-fluid imagem-mapeada" usemap="#image-map">
+
+                <map name="image-map">
+                    <area alt="a"
+                        onmouseover="Tip('Nº EDL: Número da<br>Estação Disseminadora<br>definida para o imóvel.')"
+                        onmouseout="UnTip()" coords="13,86,22" shape="circle">
+
+                    <area alt="b"
+                        onmouseover="Tip('Logradouro (nome, número):<br>Revisar se o endereço onde<br>está a EDL, está correto, se<br>não, atualizar na coluna de<br> observações.')"
+                        onmouseout="UnTip()" coords="223,87,23" shape="circle">
+
+                    <area alt="c"
+                        onmouseover="Tip('Local de instalação: Local no<br> imóvel onde ficou a EDL, o<br> qual foi definido junto com<br> o residente no momento da<br> implantação.')"
+                        onmouseout="UnTip()" coords="428,87,21" shape="circle">
+
+                    <area alt="d"
+                        onmouseover="Tip('Responsável do imóvel: Pessoa que<br> autorizou a entrada ao domicílio e<br> acompanhou a instalação das EDLs.')"
+                        onmouseout="UnTip()" coords="548,76,21" shape="circle">
+
+                    <area alt="e"
+                        onmouseover="Tip('Profissional encarregado da <br>manutenção: Profissional de<br> campo encarregado da<br> manutenção mensal da EDL,<br> designado pelo gestor ou<br> profissional encarregado da<br> estratégia no município.')"
+                        onmouseout="UnTip()" coords="671,76,20" shape="circle">
+
+                    <area alt="f"
+                        onmouseover="Tip('Nível de água na EDL:<br>Verificar o nível de água <br>da EDL e marcar *Seca*,<br> se a EDL se encontra<br> sem água no momento<br> da manutenção; *< 50%*,<br> se a EDL se encontra com<br> o nível de água embaixo<br> da metade do pote; e<br> *>= 50%*, se a EDL se<br> encontra com o nível de<br> água acima da metade<br> do pote.')"
+                        onmouseout="UnTip()" coords="802,69,20" shape="circle">
+
+                    <area alt="g"
+                        onmouseover="Tip('Tipo de novidades: Marcar<br> com X a novidade apresentada<br> no momento da manutenção.')"
+                        onmouseout="UnTip()" coords="1001,69,19" shape="circle">
+
+                    <area alt="h"
+                        onmouseover="Tip('Observações:<br>Informações adicionais que<br>o ACE acredite necessárias<br>para complementar a vistoria<br>realizada ou condições que<br>possam comprometer a<br>qualidade da EDL.')"
+                        onmouseout="UnTip()" coords="1190,69,21" shape="circle">
+
+                    <area alt="1"
+                        onmouseover="Tip('Presença de larvas:<br>Presença de larvas de <i>Ae.<br> Aegypti ou Ae. Albopictus</i><br>na água contida no<br>interior da EDL.')"
+                        onmouseout="UnTip()" coords="875,148,17" shape="circle">
+
+                    <area alt="2"
+                        onmouseover="Tip('Presença de pupas:<br>Presença de pupas de<br><i>Ae. Aegypti ou Ae.<br>Albopictus</i> na água <br>contida no interior<br> da EDL.')"
+                        onmouseout="UnTip()" coords="913,149,18" shape="circle">
+
+                    <area alt="3"
+                        onmouseover="Tip('Tecido desaparecido:<br>Tela e/ou suporte desaparecido:<br>Ausência de tela e/ou suporte <br>no momento da manutenção.')"
+                        onmouseout="UnTip()" coords="950,149,15" shape="circle">
+
+                    <area alt="4"
+                        onmouseover="Tip('Imóvel fechado:<br>No momento da visita<br>para a manutenção da<br>EDL, o imóvel se<br>encontra fechado.')"
+                        onmouseout="UnTip()" coords="986,149,16" shape="circle">
+
+                    <area alt="5"
+                        onmouseover="Tip('Estação Disseminadora<br>não instalada:<br>No momento da visita<br> para a manutenção da EDL,<br> o residente informou que a <br>EDL nunca foi instalada, o<br>qual pode acontecer por<br>erros no preenchimento ou<br>digitação do endereço.')"
+                        onmouseout="UnTip()" coords="1022,149,15" shape="circle">
+
+                    <area alt="6"
+                        onmouseover="Tip('Estação Disseminadora<br> desaparecida:<br> No momento da visita<br> para a manutenção da<br> EDL, o profissional não <br>localiza a EDL no local<br> de instalação, o qual <br>pode acontecer porque <br>a EDL é reaproveitada <br>para outros fins ou <br>foi descartada por<br> desconhecimento do<br>objetivo da EDL no<br> imóvel.')"
+                        onmouseout="UnTip()" coords="1056,149,15" shape="circle">
+
+                    <area alt="7"
+                        onmouseover="Tip('Estação Disseminadora<br> quebrada:<br>EDL danificada que<br>impeça seu bom<br>funcionamento.')"
+                        onmouseout="UnTip()" coords="1089,148,15" shape="circle">
+
+                    <area alt="8"
+                        onmouseover="Tip('Estação Disseminadora retirada:<br>EDL retirada do imóvel por<br> desistência de participação<br> ou mudança do residente,<br> ou dificuldade de acesso<br> ao imóvel, em pelo menos<br> duas visitas de manutenção.')"
+                        onmouseout="UnTip()" coords="1124,149,16" shape="circle">
+                </map>
+            </div>
+
+            <div class="row blocoTexto">
+                <p><b>As informações devem ser legíveis. O preenchimento correto das
+                        informações facilitará a logística da manutenção das EDL’s, caso tenha troca ou ausência do
+                        ACE
+                        ou profissional encarregado da visita, diminuindo o tempo e gastos operacionais de visita ou
+                        deslocamento adicionais.</b></p>
+            </div>
+
+            <div class="conteudo">
+
+                <div class="row imagem">
+                    <div class="col-lg-8">
+                        <img src="../assets/images/modulo2/aula2/img5.png"
+                            alt="Foto de um local com janelas grandes e diversas madeiras em vários tamanhos apoiados nas janelas, há também um maquinário quebrado."
+                            class="img-fluid">
+                        <small class="text-muted">Crédito: Pixaby</small>
+                    </div>
+                    <div class="col-lg-4 centro">
+                        <div class="row">
+                            <img src="../assets/images/icones/alerta.png" alt="Atenção" class="imgfluid">
+                            <p class="atencao">ATENÇÃO</p>
+                            <hr>
+
+                            <p>Caso o imóvel se encontre fechado, o agente deverá informar ao supervisor ou chefe
+                                imediato
+                                sobre a situação para reprogramar a visita de manutenção ou supervisão.</p>
+                            <p>Orientar e sensibilizar sempre o residente sobre a importância e compromisso no
+                                cuidado
+                                da
+                                EDL, mantendo em lugares protegidos e fora do alcance de crianças e animais
+                                domésticos,
+                                comunicar aos outros residentes sobre a localização das EDL’s e a visita mensal pelo
+                                ACE.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botões de navegação -->
+                <div class="row" id="botao">
+                    <a href="modulo2-aula1.html" class="btn btn-sm" id="botaoVoltar" role="button" alt="Voltar">
+                        <strong>VOLTAR</strong></a>
+                    <a href="modulo2-aula3.html" class="btn btn-sm" id="botaoAvancar" role="button" alt="Avançar">
+                        <strong>AVANÇAR</strong></a>
+                </div>
+            </div>
+
+            <!-- Rodapé -->
+            <!-- class=rodapeFixo -->
+            <footer id="rodape">
+                <div class="row-main">
+                    <div class="col-md-12 centro">
+                        <img class="img-fluid centro" src="../assets/images/rodape/rodape.png" alt="Rodapé">
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Arquivos JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="../assets/js/imageMapResizer.js"></script>
+    <script src="../assets/js/wz_tooltip.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>

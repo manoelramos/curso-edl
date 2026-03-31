@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>EDL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    <style>
+        .botaoAvaliacao {
+            background-color: #9A7265;
+        }
+
+        .botaoMatricula {
+            background-color: #2F6C48;
+        }
+
+        .botaoAvaliacao,
+        .botaoMatricula {
+            width: 166px;
+            height: 44px;
+            color: white;
+            cursor: pointer;
+            border: 0;
+        }
+
+        .instrucaoBtn {
+            font-size: 12px;
+            font-weight: 500;
+            margin: 10px 0px;
+            text-align: center;
+        }
+
+        .botao {
+            margin-top: 45px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #botaoVoltar {
+            margin: 45px 0px 65px 0px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .campusVirtual {
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Toolbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
+
+            <img src="assets/images/logos/logoMenu.png" class="img-fluid logo" alt="Logo Fiocruz" />
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li><a href="index.html">Home</a></li>
+                    <!-- <li><a href="material-complementar.html">Material Complementar</a></li> -->
+                    <li><a href="referencias.html">Referências</a></li>
+                    <li><a href="creditos.html">Créditos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row" id="row-main">
+        <!-- Sidebar -->
+        <div class="col-md-2" id="sidebar">
+            <!-- Botão p/ Recolher Sidebar-->
+            <span class="toggle-sidebar" id="sidebarButton"><i class="fas fa-chevron-left"></i></span>
+
+            <!-- Botão Secundário p/ Recolher Sidebar -->
+            <span class="toggle-sidebar" id="sidebarButton2"><img src="assets/images/icones/icone.png"
+                    alt="Botão do Menu Lateral"></span>
+
+            <nav id="menuLateral">
+                <ul class="listaMenu" id="menuList">
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <a href="introducao.html" class="tituloLista introducao">Introdução</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <a href="modulo1/modulo1-introducao.html" class="tituloLista">Módulo 1: Combate ao
+                                    mosquito <i>Aedes</i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo1/modulo1-aula1.html">Aspectos básicos da biologia, ecologia e
+                                    controle de <i>Aedes</i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo1/modulo1-aula2.html">Inseticidas reguladores de crescimento</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo1/modulo1-aula3.html">O que é uma Estação Disseminadora de
+                                    Larvicida (EDL) e como funciona?</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo1/modulo1-atividade.html">Atividade</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <a href="modulo2/modulo2-introducao.html" class="tituloLista">Módulo 2: Implantação,
+                                    manutenção e
+                                    distribuição da EDL</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2/modulo2-aula1.html">Implantação da EDL</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2/modulo2-aula2.html">Manutenção e registro da EDL</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2/modulo2-aula3.html">Métodos de distribuição em campo da EDL</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2/modulo2-aula4.html">Supervisão da EDL</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2/modulo2-aula5.html">Logística estratégica e operacional</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper"></div>
+                            <div class="sectionTitle">
+                                <div class="iconeMenu"></div>
+                                <a href="modulo2/modulo2-atividade.html">Atividade</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="barraStepper active"></div>
+                            <div class="sectionTitle">
+                                <a href="#" class="tituloLista">Encerramento</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-md-10" id="content">
+            <!-- Introdução -->
+            <div class="conteudo">
+                <p class="indice">Encerramento</p>
+                <h2>Assista ao vídeo de encerramento do curso e revise os principais pontos aprendidos.</h2>
+
+                <!-- Video 1 -->
+                <div class="row video justify-content-center">
+                    <div class="col-md-8">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video width="560" height="315" class="embed-responsive-item" controls>
+                                <source src="https://educare.fiocruz.br/file-storage/O8piacCS" type="video/mp4"
+                                    frameborder="0" allow="encrypted-media" allowfullscreen="allowfullscreen">
+                            </video>
+                        </div>
+                        <small class="text-muted">Crédito: Elaborado pelos autores</small>
+                    </div>
+                </div>
+
+                <h2>Esse curso tem certificação pelo <u>Campus Virtual Fiocruz</u>. Para receber o certificado, é
+                    preciso:</h2>
+
+                <ul>
+                    <li class="icon arrow">Estar matriculado no curso pelo Campus Virtual</li><br>
+                    <li class="icon arrow">Fazer a avaliação final e obter um aproveitamento de 70%</li>
+                </ul>
+
+                <div class="row campusVirtual">
+                    <div class="col-xl-3 botao">
+                        <p class="instrucaoBtn">Se você já está matriculado,<br>vá direto para a avaliação:</p>
+                        <a href="https://cursos.campusvirtual.fiocruz.br/mod/quiz/view.php?id=99840" target="_blank"
+                            rel="noopener noreferrer">
+                            <button class="btn-sm botaoAvaliacao" role="button" aria-pressed="true" alt="Voltar">
+                                <strong>FAZER AVALIAÇÃO</strong>
+                            </button>
+                        </a>
+                    </div>
+
+                    <div class="col-xl-3 botao">
+                        <p class="instrucaoBtn">Se não tem matrícula<br>acesse aqui:</p>
+                        <a href="https://campusvirtual.fiocruz.br/gestordecursos/hotsite/EDL" target="_blank"
+                            rel="noopener noreferrer">
+                            <button class="btn-sm botaoMatricula" role="button" aria-pressed="true" alt="Começar curso">
+                                <strong>FAZER MATRÍCULA</strong>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Botões de navegação -->
+                <div class="row" id="botao">
+                    <a href="modulo2/modulo2-atividade.html" class="btn btn-sm" id="botaoVoltar" role="button"
+                        alt="Voltar">
+                        <strong>VOLTAR</strong></a>
+                </div>
+            </div>
+
+            <!-- Rodapé -->
+            <!-- class=rodapeFixo -->
+            <footer id="rodape">
+                <div class="row-main">
+                    <div class="col-md-12 centro">
+                        <img class="img-fluid centro" src="./assets/images/rodape/rodape.png" alt="Rodapé">
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Arquivos JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
