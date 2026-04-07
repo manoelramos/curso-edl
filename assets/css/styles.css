@@ -240,6 +240,22 @@ p.tituloLista {
     font-size: max(15px, 1.3vw);
 }
 
+.legenda-imagem {
+    font-size: 12px;
+    white-space: nowrap;
+    margin-left: 0 !important;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Três colunas lado a lado: texto longo precisa caber sem quebrar */
+@media (min-width: 576px) and (max-width: 767px) {
+    .legenda-imagem {
+        font-size: 10px;
+    }
+}
+
 .video,
 .imagem {
     margin-bottom: 30px !important;
